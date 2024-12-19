@@ -23,7 +23,7 @@ const Main = () => {
                         </div>
                         <div className="cards">
                         <div className="card">
-                    <p>Suggest beautiful paces to see on an up coming road trip</p>
+                    <p>Suggest beautiful places to see on an up coming road trip</p>
                     <img src={assets.compass_icon} alt="" />
                 </div>
                 <div className="card">
@@ -67,7 +67,7 @@ const Main = () => {
                             onChange={(e) => setInput(e.target.value)}
                             value={input}
                             type="text"
-                            placeholder='Enter a prompt here'
+                            placeholder='Enter prompts here'
                         />
                         <div>
                             <img src={assets.gallery_icon} alt="" />
@@ -76,7 +76,7 @@ const Main = () => {
                         </div>
                     </div>
                     <p className="bottom-info">
-                        Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini apps.
+                        AFSTR AI may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini apps.
                     </p>
                 </div>
             </div>
